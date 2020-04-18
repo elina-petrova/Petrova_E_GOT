@@ -83,6 +83,7 @@
 
     houseVideo.pause();
     houseVideo.currentTime = 0;
+    
   }
 
 
@@ -92,5 +93,13 @@
     document.querySelector(".buttons").addEventListener("mouseover", function(){
     document.querySelector(".buttons").style.opacity= "1";
   });
+
+    document.querySelector(".buttons").addEventListener("mouseleave", function(){
+    document.querySelector(".buttons").style.opacity = "0";
+  });
+
+  imageContainer.addEventListener("transitionend", showLightbox);
+  houseVideo.addEventListener("ended", hideLightBox);
+  closeLightBox.addEventListener("click", hideLightBox);
 
 })();

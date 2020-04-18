@@ -15,6 +15,9 @@ body { background-image:url(../images/grungeBG.jpg);
 	background-repeat:no-repeat; background-position:center center;
 	background-color:#000000; font-size:16px; }
 
+.hide{
+	display: none;
+}
 h1 {
 	font-family: 'GOT_font';
 	color:white;
