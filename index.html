@@ -1,0 +1,135 @@
+<html><head>
+<meta charset="UTF-8">
+<title>Game of thrones: Houses</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+  <h2 class="hide">Game of thrones: Houses</h2>
+    <main>
+      <h3 class="hide">House Article</h3>
+    <section id="imageContainer">
+      <h4 class="hide">House Image</h4>
+        <div id="houseImages" style="right: -600px;">
+            <img src="images/stark.jpg" data-offset="0">
+            <img src="images/baratheon.jpg" data-offset="1">
+            <img src="images/lannister.jpg" data-offset="2">
+            <img src="images/tully.jpg" data-offset="3">
+            <img src="images/greyjoy.jpg" data-offset="4">
+            <img src="images/arryn.jpg" data-offset="5">
+        </div>
+    </section>
+
+    <nav id="bottomNav">
+      <h4 class="hide">Navigation</h4>
+        <ul id="navList">
+            <li><div class="sigilContainer stark" data-offset="0"></div></li>
+            <li><div class="sigilContainer baratheon" data-offset="1"></div></li>
+            <li><div class="sigilContainer lannister" data-offset="2"></div></li>
+            <li><div class="sigilContainer tully" data-offset="3"></div></li>
+            <li><div class="sigilContainer greyjoy" data-offset="4"></div></li>
+            <li><div class="sigilContainer arryn" data-offset="5"></div></li>
+        </ul>
+    </nav>
+
+    <h1></h1><!-- replace this with the house name -->
+
+    <p class="house-info"></p><!-- replace this with house details (github gist) -->
+</main>  <!--end mainContainer-->
+
+<!-- lightbox goes here, at the top of the stack -->
+<section class="lightbox">
+  <h2 class="hide">Video</h2>
+  <span class="lightbox-close">X</span>
+
+  <!-- show the current house video -->
+  <video class="video-player" src="video/House-Baratheon.mp4"></video>
+  <div class="buttons" style="opacity: 0;">
+    <h3 class="hide">Video Controllers</h3>
+  <div class="rewind-button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 114 64">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: black;
+          }
+        </style>
+      </defs>
+      <g id="Group_39" data-name="Group 39" transform="translate(-6187 -163)">
+        <path id="Polygon_3" data-name="Polygon 3" class="cls-1" d="M32,0,64,57H0Z" transform="translate(6187 227) rotate(-90)"></path>
+        <path id="Polygon_4" data-name="Polygon 4" class="cls-1" d="M32,0,64,57H0Z" transform="translate(6244 227) rotate(-90)"></path>
+      </g>
+    </svg>
+
+  </div>
+
+  <div class="pause-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 51.246 40">
+        <defs>
+          <style>
+
+            .cls-2, .cls-3 {
+              stroke: black;
+              stroke-width: 10px;
+            }
+
+          </style>
+        </defs>
+        <g id="Group_38" data-name="Group 38" transform="translate(-6014 -162.5)">
+          <path id="Path_97" data-name="Path 97" class="cls-2" d="M0,0V63.106" transform="translate(6020.5 162.5)"></path>
+          <path id="Path_98" data-name="Path 98" class="cls-3" d="M0,0V63.106" transform="translate(6048.746 162.5)"></path>
+        </g>
+      </svg>
+
+  </div>
+
+  <div class="play-button">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 114 64">
+      <defs>
+        <style>
+          .cls-4 {
+            fill: black;
+            transform-origin:center;
+          }
+        </style>
+      </defs>
+      <g id="Group_39" data-name="Group 39" transform="translate(-6187 -163)">
+        <path id="Polygon_3" data-name="Polygon 3" class="cls-4" d="M32,0,64,57H0Z" transform="translate(6187 190) rotate(90)"></path>
+      </g>
+    </svg>
+    
+
+  </div>
+
+  <div class="resize-button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="64.001" viewBox="0 0 64 64.001">
+      <defs>
+        <style>
+          .cls-6 {
+            fill: black;
+          }
+
+          .cls-7, .cls-8{
+            stroke: none;
+          }
+
+          .cls-9 {
+            fill: #080606;
+          }
+        </style>
+      </defs>
+      <g id="Path_99" data-name="Path 99" class="cls-6" transform="translate(-5 -5)">
+        <path class="cls-7" d="M 62.50032806396484 62.50104904174805 L 54.23117446899414 62.50070571899414 L 57.00060653686523 62.50070571899414 L 62.50032806396484 62.50070571899414 L 62.50032806396484 62.50104904174805 Z"/>
+        <path class="cls-8" d="M 69.00032043457031 69.00131988525391 L 68.99931335449219 69.00131988525391 L 45.00000381469727 69.00032043457031 L 45.00000381469727 56.00069046020508 L 57.0006103515625 56.00069046020508 L 57.0006103515625 45.00000381469727 L 69.00032043457031 45.00000381469727 L 69.00032043457031 69.00032043457031 L 69.00032043457031 69.00131988525391 Z M 29.99969100952148 69.00032043457031 L 29.99869155883789 69.00032043457031 L 5.000400066375732 69.00032043457031 L 5.000400066375732 45.00000381469727 L 17.00010871887207 45.00000381469727 L 17.00010871887207 56.00069046020508 L 29.99969100952148 56.00069046020508 L 29.99969100952148 68.99931335449219 L 29.99969100952148 69.00032043457031 Z M 69.00032043457031 29.99969100952148 L 68.99931335449219 29.99969100952148 L 57.0006103515625 29.99969100952148 L 57.0006103515625 18.00000381469727 L 45.00000381469727 18.00000381469727 L 45.00000381469727 5.000400066375732 L 69.00032043457031 5.000400066375732 L 69.00032043457031 29.99869155883789 L 69.00032043457031 29.99969100952148 Z M 17.00010871887207 29.99969100952148 L 16.99910926818848 29.99969100952148 L 5.000400066375732 29.99969100952148 L 5.000400066375732 5.000400066375732 L 29.99969100952148 5.000400066375732 L 29.99969100952148 18.00000381469727 L 17.00010871887207 18.00000381469727 L 17.00010871887207 29.99869155883789 L 17.00010871887207 29.99969100952148 Z"/>
+      </g>
+    </svg>
+
+  </div>
+</div>
+</section>
+
+<script src="js/main.js"></script>
+
+
+</body></html>
