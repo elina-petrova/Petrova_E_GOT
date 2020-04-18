@@ -117,8 +117,10 @@
   imageContainer.addEventListener("transitionend", showLightbox);
   houseVideo.addEventListener("ended", hideLightBox);
   closeLightBox.addEventListener("click", hideLightBox);
+
   rewindButton.addEventListener("click", rewind);
   pauseButton.addEventListener("click", pause);
   playButton.addEventListener("click", play);
   resizeButton.addEventListener("click", resize);
+
 })();
