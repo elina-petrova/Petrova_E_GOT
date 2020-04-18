@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /* ----- custom font ----- */
 @font-face {
     font-family: 'GOT_font';
@@ -18,6 +17,7 @@ body { background-image:url(../images/grungeBG.jpg);
 .hide{
 	display: none;
 }
+
 h1 {
 	font-family: 'GOT_font';
 	color:white;

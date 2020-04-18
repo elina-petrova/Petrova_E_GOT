@@ -83,9 +83,25 @@
 
     houseVideo.pause();
     houseVideo.currentTime = 0;
-    
+
+    if(lightBox.classList.contains("resize")){
+      lightBox.classList.remove("resize");
+    }
   }
 
+  function rewind(){
+    houseVideo.currentTime = 0;
+    houseVideo.play();
+  }
+  function pause(){
+    houseVideo.pause();
+  }
+  function play(){
+    houseVideo.play();
+  }
+  function resize(){
+    lightBox.classList.toggle("resize");
+  }
 
   // //animate baners on a click
   sigilButtons.forEach(button => button.addEventListener("click", animateBanners));
@@ -101,5 +117,10 @@
   imageContainer.addEventListener("transitionend", showLightbox);
   houseVideo.addEventListener("ended", hideLightBox);
   closeLightBox.addEventListener("click", hideLightBox);
+
+  rewindButton.addEventListener("click", rewind);
+  pauseButton.addEventListener("click", pause);
+  playButton.addEventListener("click", play);
+  resizeButton.addEventListener("click", resize);
 
 })();
