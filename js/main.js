@@ -122,5 +122,4 @@
   pauseButton.addEventListener("click", pause);
   playButton.addEventListener("click", play);
   resizeButton.addEventListener("click", resize);
-
 })();
